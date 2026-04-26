@@ -1,0 +1,10 @@
+__pycache__/
+
+venv
+.venv
+
+site
+build
+
+TODO.txt
+todo.txt
