@@ -32,6 +32,7 @@ theme:
   features:
     - content.action.view
     - content.code.copy
+    - content.code.annotate
     - navigation.footer
     - navigation.top
     - navigation.indexes
