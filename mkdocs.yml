@@ -25,6 +25,7 @@ nav:
       - YAML Configuration: reference/yaml-configuration.md
   - Explanation:
       - explanation/index.md
+  - About: about.md
 
 theme:
   name: material
