@@ -52,10 +52,7 @@ nav:
 
 ### What this does
 
--   `nav`: This top-level key tells MkDocs that you want to define a manual navigation structure.
--   `Home: index.md`: This creates a top-level link labeled "Home" that points to your `index.md` file.
--   `Features:`: This creates a top-level navigation section labeled "Features".
--   The indented list under `Features` creates a dropdown menu with links to your new pages.
+The top-level key `nav` tells MkDocs the structure of the navigation on the left side. With `Home: index.md`, it creates a top-level link named "Home" that points to `index.md`. `Features` will create a top-level navigation section, which has two subpages: `Search` and `Themes` with their own respective paths to markdown files.
 
 !!! success "Expected result"
     Your site now has a "Features" dropdown menu in the navigation bar, containing links to your "Search" and "Themes" pages.

@@ -1,6 +1,6 @@
 # Markdown extensions
 
-This tutorial explains how to use some of Material for MkDocs' most useful Markdown extensions to make your content more readable and interactive. You will learn how to add admonitions, styled code blocks, content tabs, and collapsible blocks.
+This tutorial explains how to use some of Material for MkDocs most useful Markdown extensions to make your content more readable and interactive. You will learn how to add admonitions, styled code blocks, content tabs, and collapsible blocks.
 
 ## Prerequisites
 
@@ -25,10 +25,10 @@ Create an admonition by using `!!!` followed by a type qualifier.
 
 ```markdown
 !!! note
-    This is a note. It contains information that is useful but not critical.
+    This is a note.
 
 !!! warning "Don't forget"
-    This is a warning. It contains important information that the user should not ignore.
+    This is a warning.
 ```
 
 Example:
@@ -37,7 +37,7 @@ Example:
     This is a tip.
 
 
-### Common types
+### Types of admonitions
 
 - `note`
 - `info`
@@ -117,7 +117,7 @@ Example:
 
 ## Collapsible blocks
 
-You can hide less critical or lengthy content inside collapsible "details" blocks.
+You can hide less critical or lengthy content inside collapsible blocks, similar to admonitions.
 
 ### How to use them
 

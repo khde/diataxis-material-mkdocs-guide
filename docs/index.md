@@ -10,11 +10,11 @@ Welcome to a complete, practical documentation project for **Material for MkDocs
 
 ## What is Material for MkDocs
 
-[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) is a popular theme and feature-rich extension for MkDocs. It adds a modern design, navigation improvements, search, and many useful documentation-focused features.
+[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) is a popular theme and feature-rich extension for MkDocs. It adds a modern dark-themed design, improved search, new UI features and more.
 
 ## What is Diátaxis
 
-[Diátaxis](https://diataxis.fr/) is a documentation framework that organizes content into four distinct types: tutorials, how-to guides, reference, and explanation. It helps readers choose the right page for their current goal.
+[Diátaxis](https://diataxis.fr/) is a documentation framework that organizes content into four distinct types: tutorials, how-to guides, reference, and explanation.
 
 ## Overview
 
