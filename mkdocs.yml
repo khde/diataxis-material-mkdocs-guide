@@ -26,7 +26,7 @@ nav:
       - YAML Configuration: reference/yaml-configuration.md
   - Explanation:
       - explanation/index.md
-      - Should you use MkDocs?: explanation/evaluation.md
+      - Evaluation of MkDocs: explanation/evaluation.md
       - Alternatives to MkDocs: explanation/alternatives.md
   - Download: download.md
   - About: about.md
