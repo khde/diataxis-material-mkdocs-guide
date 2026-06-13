@@ -10,7 +10,11 @@ To use these extensions, enable the corresponding Markdown extensions in your `m
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+    - pymdownx.superfences:
+            custom_fences:
+                - name: mermaid
+                    class: mermaid
+                    format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
 ```
@@ -143,3 +147,35 @@ Example:
 ---
 
 You can now use these extensions to create richer and more user-friendly documentation pages.
+
+## Mermaid diagrams
+
+Mermaid diagrams are useful for visualizing processes, flows, and relationships directly in Markdown. In Material for MkDocs, they are enabled with a custom Superfences block.
+
+### How to use them
+
+Add the Mermaid fence to your `mkdocs.yml` file:
+
+```yaml title="mkdocs.yml"
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+```
+
+Example:
+
+``` mermaid
+sequenceDiagram
+    participant Client
+    participant Server
+    Client->>Server: POST /api/auth/login (username, password)
+    Note over Server: Validate credentials
+    Server-->>Client: 200 OK (Issuing JWT)
+    Note over Client: Store token
+    Client->>Server: GET /api/user with header Authorization: Bearer <token>
+    Note over Server: Verify Signature & Expiration
+    Server-->>Client: 200 OK (Data)
+```
