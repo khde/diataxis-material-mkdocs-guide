@@ -1,9 +1,9 @@
 # Generate a PDF file out of MkDocs
-This page describes how to generate a PDF file from your MkDocs documentation using mkdocs-exporter.
+This page describes how to generate a PDF file from the MkDocs documentation using mkdocs-exporter.
 
 ## PDF Export from MkDocs
 
-MkDocs does not natively support PDF generation. However, the MkDocs plugin ecosystem provides several solutions to export your documentation as PDF. Popular plugins include `mkdocs-pdf-export-plugin` and `mkdocs-with-pdf`, However this how-to focuses on `mkdocs-exporter`.
+MkDocs does not natively support PDF generation. However, the MkDocs plugins provides several solutions to export the documentation as a PDF. Popular plugins include `mkdocs-pdf-export-plugin` and `mkdocs-with-pdf`, However this how-to focuses on `mkdocs-exporter`.
 
 ### Installing mkdocs-exporter
 
@@ -21,7 +21,7 @@ playwright install
 
 ### Configuring mkdocs-exporter
 
-Add the plugin to your `mkdocs.yml` configuration file with the basic settings:
+Add the plugin to the `mkdocs.yml` configuration file with the basic settings:
 
 ```yaml
 plugins:
@@ -36,7 +36,7 @@ The `concurrency` setting controls how many pages are rendered in parallel, spee
 
 ### Aggregating into a Single PDF
 
-By default, the exporter generates individual PDF files for each page. If you want to combine all pages into a single PDF document, enable the aggregator option:
+By default, the exporter generates individual PDF files for each page. To combine all pages into a single PDF document, enable the aggregator option:
 
 ```yaml hl_lines="7 8 9 10"
 plugins:
@@ -60,4 +60,4 @@ mkdocs build
 ```
 
 For the configured aggregation, the combined PDF will be located at `site/output.pdf`.
-Individual page PDFs are also generated and placed in the same `site/` directory alongside your static HTML files.
+Individual page PDFs are also generated and placed in the same `site/` directory alongside the static HTML files.

@@ -1,17 +1,17 @@
 # Implementing a Dark/Light Mode Toggle
-This page describes how to add a dark and light mode toggle to your Material for MkDocs documentation.
+This page describes how to add a dark and light mode toggle to Material for MkDocs documentation.
 
 ## Color Scheme Preferences
 
-Material for MkDocs supports multiple color schemes, allowing users to choose between light and dark modes based on their preference. You can configure these schemes to automatically respect the users system preference while providing a manual toggle to switch between them.
+Material for MkDocs supports multiple color schemes, allowing users to choose between light and dark modes based on their preference. The schemes can be configured to automatically use the users system preference while providing a manual toggle to switch between them.
 
 ## Setting up the Color Scheme Toggle
 
-To add a dark and light mode toggle to your documentation, configure the `palette` section in your `mkdocs.yml` file. This section defines the available color schemes and how users can switch between them.
+To add a dark and light mode toggle to the site, configure the `palette` section in `mkdocs.yml` file. This section defines the available color schemes and how users can switch between them.
 
 ### Basic Configuration
 
-Add the palette configuration to your `theme` section in `mkdocs.yml`:
+Add the palette configuration to the `theme` section in `mkdocs.yml`:
 
 ```yaml
 theme:

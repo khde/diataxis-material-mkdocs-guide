@@ -1,19 +1,19 @@
 # Deploy MkDocs to Github Pages
-This page describes how to deploy your MkDocs documentation to Github Pages.
+This page describes how to deploy MkDocs documentation to Github Pages.
 
 ## Github pages
-[Github Pages](https://pages.github.com/) is a static site hosting service that allows you to publish your documentation directly from a GitHub repository.
+[Github Pages](https://pages.github.com/) is a static site hosting service that allows to publish documentation directly from a GitHub repository.
 
 !!! info "Plan Availability and Usage"
     GitHub Pages is available for free in public repositories. GitHub Pages is not allowed for commercial use. See [GitHub Pages limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits) for more details.
 
 ## Deploying to Github Pages
 
-To automate your MkDocs deployment to GitHub Pages, you can use GitHub Actions. This workflow automatically builds and deploys your documentation whenever you push changes to your repository.
+To deploy to Github Pages, Github Actions is used. This workflow automatically builds and deploys the documentation on pushes or manuall triggers.
 
 ### Setting up GitHub Actions
 
-Create a new workflow file at `.github/workflows/deploy-docs.yml` in your repository with the following content:
+Create a new workflow file at `.github/workflows/deploy-docs.yml` in the repository with the following content:
 
 ```yaml
 name: deploy-docs
@@ -57,13 +57,13 @@ jobs:
 
 ### Enabling GitHub Pages
 
-After the first successful workflow run, you need to configure your repository:
+After the first successful workflow run, the repository needs to be configured:
 
-1. Go to your repository **Settings** → **Pages**
+1. Go to the repository Settings -> Pages
 2. Under "Build and deployment", select "Deploy from a branch"
 3. Choose `gh-pages` as the branch and `/ (root)` as the folder
 
-Your documentation will now be automatically deployed to GitHub Pages at `https://<username>.github.io/<repository>/` whenever you push changes to the `master` branch.
+The documentation will now be automatically deployed to GitHub Pages at `https://<username>.github.io/<repository>/` whenever the workflow is triggered.
 
-## How it works
-Any trigger, whether manual or caused by a push, starts the workflow. MkDocs then builds the documentation. After the build, the workflow pushes the generated site to the `gh-pages` branch, which is why write permission for repository contents is required. Finally, GitHub Pages serves the site from that branch.
+## Deployment
+A trigger will start the Github Actions workflow. In this configuration it is either manual or by a push. MkDocs then builds the documentation. After the build, the workflow pushes the generated site to the `gh-pages` branch, which is why write permission for repository is required. Finally, GitHub Pages serves the site from that branch.

@@ -1,6 +1,6 @@
 # Show information about a page
 
-This page shows how to add page information to your MkDocs site with two plugins: one for showing who edited a page and one for showing when it was last changed.
+This page shows how to add page information to MkDocs site with two plugins: one for showing who edited a page and one for showing when it was last changed.
 
 ## Show who edited the page
 
