@@ -4,16 +4,16 @@ Given that MkDocs is no longer actively maintained, concerns about plugin depend
 
 ## Sphinx
 
-[Sphinx](https://www.sphinx-doc.org) is a mature, battle-tested documentation tool widely used in large projects and the Python community. It has extensive built-in features for cross-referencing, search, and multiple output formats.
+[Sphinx](https://www.sphinx-doc.org) is a mature documentation tool widely used in the Python community.
 
 ## Jekyll
 
-[Jekyll](https://jekyllrb.com) is a static site generator that powers GitHub Pages. It's mature, established, and widely used for documentation and blogs.
+[Jekyll](https://jekyllrb.com) is a static site generator that powers GitHub Pages. 
 
 ## Docusaurus
 
-[Docusaurus](https://docusaurus.io), built by Meta, combines React and modern web standards for documentation. It's designed specifically for documentation sites and integrates well with version control workflows.
+[Docusaurus](https://docusaurus.io)is built by Meta and combines React and modern web standards for documentation. It is component based and builds single-page applications.
 
 ## Quarkdown
 
-[Quarkdown](https://quarkdown.com/) is a modern, open-source typesetting system based on Markdown that serves as a powerful alternative to LaTeX. It extends standard Markdown with its own programming language, allowing users to compile a single source document into professional print layouts, presentation slides, and responsive websites.
+[Quarkdown](https://quarkdown.com/) is a new typesetting system based on Markdown that also tries to simplify LateX. It uses its own Markdown flavour.
