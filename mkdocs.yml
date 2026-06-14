@@ -29,6 +29,7 @@ nav:
       - Evaluation of MkDocs: explanation/evaluation.md
       - Alternatives to MkDocs: explanation/alternatives.md
   - Download: download.md
+  - Glossary: glossary.md
   - About: about.md
 
 theme:
@@ -72,6 +73,7 @@ theme:
 
 markdown_extensions:
   - admonition
+  - def_list
   - pymdownx.details
   - footnotes
   - attr_list
