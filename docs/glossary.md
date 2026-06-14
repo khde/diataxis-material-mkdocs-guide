@@ -24,8 +24,8 @@ MkDocs
 Material for MkDocs
 : A theme for MkDocs that provides a modern look and many features such as search, navigation, and responsive design.
 
-Mermaid diagram
-: A diagram written in Mermaid syntax and rendered from text, useful for flowcharts, sequence diagrams, and similar visuals.
+Mermaid
+: A diagram written in Mermaid syntax and rendered from text, useful for flowcharts, sequence diagrams, and more.
 
 Python-Markdown
 : The Markdown parser used by MkDocs to convert Markdown content into HTML.

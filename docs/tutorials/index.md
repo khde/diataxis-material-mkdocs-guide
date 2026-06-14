@@ -12,6 +12,4 @@
 
 - :material-code-tags: [Using Markdown extensions ](markdown-extensions.md)
 
-
-
 </div>
