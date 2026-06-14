@@ -2,9 +2,11 @@
 
 This tutorial explains how to use some of Material for MkDocs most useful Markdown extensions to make your content more readable and interactive. You will learn how to add admonitions, styled code blocks, content tabs, and collapsible blocks.
 
+MkDocs uses [Python-Markdown](https://python-markdown.github.io), which implements John Gruber's original Markdown specification and also supports [extensions](https://python-markdown.github.io/extensions) for features like footnotes or admonitions. Furthermore, Material for MkDocs uses [Pymdown Extensions](https://facelessuser.github.io/pymdown-extensions), a collection of extensions for Python-Markdown to add even more capabilities.
+
 ## Prerequisites
 
-To use these extensions, enable the corresponding Markdown extensions in your `mkdocs.yml` file. Make sure your `markdown_extensions` section looks like this:
+To use these extensions, enable the corresponding Markdown extensions in your `mkdocs.yml` file. For a full reference of all available extensions and their configuration, see the [Material for MkDocs reference](https://squidfunk.github.io/mkdocs-material/reference). Make sure your `markdown_extensions` section looks like this:
 
 ```yaml title="mkdocs.yml"
 markdown_extensions:
