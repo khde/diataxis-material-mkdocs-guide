@@ -1,6 +1,6 @@
 # Markdown extensions
 
-This tutorial explains how to use some of Material for MkDocs most useful Markdown extensions to make your content more readable and interactive. You will learn how to add admonitions, styled code blocks, content tabs, and collapsible blocks.
+This tutorial explains how to use some of Material for MkDocs most useful Markdown extensions to make your content more readable and interactive. You will learn how to add admonitions, styled code blocks, content tabs, collapsible blocks, mermaid diagrams, and abbreviations.
 
 MkDocs uses [Python-Markdown](https://python-markdown.github.io), which implements John Gruber's original Markdown specification and also supports [extensions](https://python-markdown.github.io/extensions) for features like footnotes or admonitions. Furthermore, Material for MkDocs uses [Pymdown Extensions](https://facelessuser.github.io/pymdown-extensions), a collection of extensions for Python-Markdown to add even more capabilities.
 
@@ -11,12 +11,13 @@ To use these extensions, enable the corresponding Markdown extensions in your `m
 ```yaml title="mkdocs.yml"
 markdown_extensions:
   - admonition
+  - abbr
   - pymdownx.details
-    - pymdownx.superfences:
-            custom_fences:
-                - name: mermaid
-                    class: mermaid
-                    format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
 ```
@@ -41,7 +42,6 @@ Example:
 
 !!! tip "Quick fix"
     This is a tip.
-
 
 ### Types of admonitions
 
@@ -181,3 +181,22 @@ sequenceDiagram
     Note over Server: Verify Signature & Expiration
     Server-->>Client: 200 OK (Data)
 ```
+
+## Abbreviations
+
+Abbreviations let you define a short term once and show its full meaning when users hover over it.
+
+### How to use them
+
+Enable `abbr` in `mkdocs.yml`, then write the abbreviation definitions at the end of the page in the syntax `*[Abbreviation]: Definition`.
+
+```markdown
+MkDocs and Mermaid are used throughout this guide.
+
+*[MkDocs]: A static site generator geared towards project documentation.
+*[Mermaid]: A diagram syntax for creating flowcharts and sequence diagrams.
+```
+
+Example:
+
+MkDocs and Mermaid are used throughout this guide.
