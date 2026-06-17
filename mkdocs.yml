@@ -5,6 +5,9 @@ edit_uri: https://github.com/khde/diataxis-material-mkdocs-guide/tree/master/doc
 site_description: Diátaxis-based documentation for Material for MkDocs
 docs_dir: docs
 
+watch:
+  - includes
+
 nav:
   - Home: index.md
   - Tutorials:
@@ -73,11 +76,15 @@ theme:
 
 markdown_extensions:
   - admonition
+  - abbr
   - def_list
   - pymdownx.details
   - footnotes
   - attr_list
   - md_in_html
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
