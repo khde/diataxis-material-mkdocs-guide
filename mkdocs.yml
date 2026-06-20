@@ -27,12 +27,13 @@ nav:
       - reference/index.md
       - Commands: reference/commands.md
       - YAML Configuration: reference/yaml-configuration.md
+      - Glossary: glossary.md
+      - References: reference/references.md
   - Explanation:
       - explanation/index.md
       - Evaluation of MkDocs: explanation/evaluation.md
       - Alternatives to MkDocs: explanation/alternatives.md
   - Download: download.md
-  - Glossary: glossary.md
   - About: about.md
 
 theme:
