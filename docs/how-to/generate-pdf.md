@@ -3,7 +3,7 @@ This page describes how to generate a PDF file from the MkDocs documentation usi
 
 ## PDF Export from MkDocs
 
-MkDocs does not natively support PDF generation. However, the MkDocs plugins provides several solutions to export the documentation as a PDF. Popular plugins include `mkdocs-pdf-export-plugin` and `mkdocs-with-pdf`, However this how-to focuses on `mkdocs-exporter`.
+MkDocs does not natively support PDF generation. However, the MkDocs plugins provides several solutions to export the documentation as a PDF. Popular plugins include `mkdocs-pdf-export-plugin` and `mkdocs-with-pdf`, However this how-to focuses on [`mkdocs-exporter`](https://github.com/adrienbrignon/mkdocs-exporter).
 
 ### Installing mkdocs-exporter
 

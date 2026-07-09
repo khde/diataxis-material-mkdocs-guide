@@ -36,11 +36,11 @@ theme:
 ```
 
 !!! success "Expected result"
-    If `mkdocs serve` is running, your site will automatically reload with a completely new look and feel. You are now using the Material for MkDocs theme.
+    If `mkdocs serve` is running, your site will automatically reload with a new dark look. You are now using the Material for MkDocs theme.
 
 ## Enable theme features
 
-Material for MkDocs includes many features that can be enabled under the `theme.features` key. Let's add a few popular ones.
+Material for MkDocs includes many features that can be enabled under the `theme.features` key. Here we will enable some features.
 
 Update your `theme` configuration:
 

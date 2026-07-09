@@ -19,10 +19,10 @@ Markdown extension
 : An add-on that expands Markdown with extra features such as admonitions, tabs, or diagrams.
 
 MkDocs
-: A static site generator geared towards project documentation, written in Python.
+: A static site generator for project documentation, written in Python.
 
 Material for MkDocs
-: A theme for MkDocs that provides a modern look and many features such as search, navigation, and responsive design.
+: A theme for MkDocs that provides a modern look and many features such as search, navigation, and extensions.
 
 Mermaid
 : A diagram written in Mermaid syntax and rendered from text, useful for flowcharts, sequence diagrams, and more.
@@ -31,4 +31,4 @@ Python-Markdown
 : The Markdown parser used by MkDocs to convert Markdown content into HTML.
 
 Static site generator
-: A tool that builds a website from source files such as Markdown and configuration data.
+: A tool that builds a website (HTML, CSS, JavaScript, etc.) from source files such as Markdown and configuration data.

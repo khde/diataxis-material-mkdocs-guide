@@ -50,7 +50,7 @@ nav:
     - Themes: features/themes.md
 ```
 
-### What this does
+### Functionality
 
 The top-level key `nav` tells MkDocs the structure of the navigation on the left side. With `Home: index.md`, it creates a top-level link named "Home" that points to `index.md`. `Features` will create a top-level navigation section, which has two subpages: `Search` and `Themes` with their own respective paths to markdown files.
 

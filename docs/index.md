@@ -1,12 +1,12 @@
 # Diátaxis Material for MkDocs Guide
-Welcome to a complete, practical documentation project for **Material for MkDocs**, organized using the **Diátaxis** framework.
+Welcome to a practical documentation project for **Material for MkDocs**, organized using the **Diátaxis** framework.
 
 !!! info "Source code"
     The source code for this documentation is available [here](https://github.com/khde/diataxis-material-mkdocs-guide)
 
 ## What is MkDocs
 
-[MkDocs](https://www.mkdocs.org/) is a static site generator designed for project documentation. It builds a website from Markdown files and a simple configuration file, making it easy to create and maintain documentation sites.
+[MkDocs](https://www.mkdocs.org/) is a static site generator designed for project documentation. It builds a website from Markdown files and a simple configuration file, making it easy to create and maintain documentation.
 
 ## What is Material for MkDocs
 
@@ -18,7 +18,7 @@ Welcome to a complete, practical documentation project for **Material for MkDocs
 
 ## Overview
 
-As the Diátaxis framework has four quadrants, this documentation is organized accordingly.
+As the Diátaxis framework has four quadrants, this documentation is organized accordingly:
 
 <div class="grid cards" markdown>
 
@@ -26,7 +26,7 @@ As the Diátaxis framework has four quadrants, this documentation is organized a
 
     ---
 
-    Learning by doing.
+    Hands-on learning
 
     [Open Tutorials](tutorials/index.md)
 
@@ -34,7 +34,7 @@ As the Diátaxis framework has four quadrants, this documentation is organized a
 
     ---
 
-    Instructions to solve specific tasks quickly.
+    Instructions to solve specific tasks
 
     [Open How-to Guides](how-to/index.md)
 
@@ -42,7 +42,7 @@ As the Diátaxis framework has four quadrants, this documentation is organized a
 
     ---
 
-    Look up commands, config, and APIs.
+    Commands, configuration and more
 
     [Open Reference](reference/index.md)
 
@@ -50,7 +50,7 @@ As the Diátaxis framework has four quadrants, this documentation is organized a
 
     ---
 
-    Understanding.
+    Understanding
 
     [Open Explanation](explanation/index.md)
 

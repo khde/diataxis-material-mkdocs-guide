@@ -146,10 +146,6 @@ Example:
     ERROR  Missing reference: api/usage.md
     ```
 
----
-
-You can now use these extensions to create richer and more user-friendly documentation pages.
-
 ## Mermaid diagrams
 
 Mermaid diagrams are useful for visualizing processes, flows, and relationships directly in Markdown. In Material for MkDocs, they are enabled with a custom Superfences block.
